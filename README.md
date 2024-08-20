@@ -33,7 +33,7 @@ Expenses tracker app
 - [x] Bi-lingual support (English and Ukrainian) with ability to change the language at runtime.
 - [x] Ability to delete user's data and account.
 - [x] User profile management.
-- [] CI/CD and Fastlane.
+- [ ] CI/CD and Fastlane.
 
 ## Testing report
 
