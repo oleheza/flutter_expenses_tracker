@@ -1,0 +1,1 @@
+enum ExpensesChartType { bar, pie }

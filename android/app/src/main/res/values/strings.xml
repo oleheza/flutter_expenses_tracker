@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Expenses Tracker</string>
+    <string name="facebook_app_id">387506580789679</string>
+    <string name="facebook_client_token">f720cff9b75460384be7b43f7c3ae3d0</string>
+</resources>

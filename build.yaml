@@ -1,0 +1,32 @@
+targets:
+  $default:
+    builders:
+      freezed|freezed:
+        enabled: true
+        generate_for:
+          include:
+            - lib/**/**_bloc.dart
+            - lib/**/**_cubit.dart
+            - lib/core/domain/failure/**.dart
+            - lib/expenses/chart/domain/model/expenses_bar_chart_item.dart
+            - lib/expenses/chart/domain/model/expenses_pie_chart_item.dart
+            - lib/create_or_update_expenses/bloc/create_or_update_expenses_date_holder.dart
+      injectable_generator|injectable_builder:
+        enabled: true
+        generate_for:
+          include:
+            - lib/**/**_use_case.dart
+            - lib/**/**_repository**.dart
+            - lib/**/**_module.dart
+            - lib/core/domain/validator/validator.dart
+      injectable_generator|injectable_config_builder:
+        enabled: true
+        generate_for:
+          include:
+            - lib/core/di/injector.dart
+      mockito|mockBuilder:
+        enabled: true
+        generate_for:
+          include:
+            - test/mocks/**_mocks.dart
+            - test/core/domain/auth_repository_reset_password_test.dart
